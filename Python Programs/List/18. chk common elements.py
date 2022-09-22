@@ -1,0 +1,35 @@
+# Write a Python function that takes two lists 
+#and returns True if they have at least one common member
+
+# lst1 = [1,2,3,4,5]
+# lst2 = [5,6,7,8,9]
+# for i in lst1:
+#     for j in lst2:
+#         if i == j:
+#             res = True
+#             break
+#         else:
+#             res = False
+# print(res)
+
+# lst1 = [1,2,3,4,5]
+# lst2 = [6,7,8,9]
+
+# for i in lst1:
+#     for j in lst2:
+#         if i == j:
+#             res = True
+#             break
+#         else:
+#             res = False
+# print(res)
+
+def common_data(list1, list2):
+     result = False
+     for x in list1:
+         for y in list2:
+             if x == y:
+                 result = True
+                 return result
+print(common_data([1,2,3,4,5], [5,6,7,8,9]))
+print(common_data([1,2,3,4,5], [6,7,8,9]))

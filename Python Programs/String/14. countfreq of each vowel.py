@@ -1,0 +1,6 @@
+s = input("Enter a string: ")
+print("Frequency of vowel a is:", s.count('a'))
+print("Frequency of vowel e is:", s.count('e'))
+print("Frequency of vowel i is:", s.count('i'))
+print("Frequency of vowel o is:", s.count('o'))
+print("Frequency of vowel u is:", s.count('u'))
